@@ -1,0 +1,16 @@
+UserLoginTemplate:
+https://github.com/knoldus/Node.js_UserLogin_Template
+
+Kafka:
+https://github.com/CloudKarafka/nodejs-kafka-example.git
+https://nodewebapps.com/2017/11/04/getting-started-with-nodejs-and-kafka/
+
+Node-oauth
+http://github.com/ciaranj/node-oauth.git
+
+Learning:
+
+http://www.tutorialsteacher.com/nodejs/nodejs-tutorials
+https://github.com/learncodeacademy/node-tutorials
+
+cognizant academy course code ‘sl_jsnd_a01_it_enus’   

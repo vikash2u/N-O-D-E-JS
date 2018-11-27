@@ -1,0 +1,26 @@
+{
+  "name": "graphqlmongo",
+  "version": "1.0.0",
+  "description": "Intregration of grapgql mongodb",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vikash",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "*",
+    "chalk": "^2.4.1",
+    "events": "^3.0.0",
+    "express": "*",
+    "express-graphql": "*",
+    "graphql": "*",
+    "hapi": "*",
+    "mongodb": "*",
+    "mongoose": "^5.3.8",
+    "mysql": "^2.16.0",
+    "nodemon": "^1.18.5",
+    "sequelize": "^4.41.0",
+    "winston": "^3.1.0"
+  }
+}

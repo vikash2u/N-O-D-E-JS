@@ -1,0 +1,16 @@
+{
+  "name": "insertrecordmongodb",
+  "version": "1.0.0",
+  "description": "Insert Record",
+  "main": "insert.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vikash",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "*",
+    "https": "*",
+    "mongodb": "^2.2.33"
+  }
+}

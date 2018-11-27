@@ -1,0 +1,69 @@
+Save Data to MongoDB using Mongoose and Express.js
+Routes
+Setup
+First, install the necessary packages with:
+npm install express cors mongoose
+Code
+Then, add dependencies to your server.js file, create the database schema and the name of the collection, create
+an Express.js server, and connect to MongoDB:
+var express = require('express');
+var cors = require('cors'); // We will use CORS to enable cross origin domain requests.
+var mongoose = require('mongoose');
+Complete Node.js Tips & Secrets for Professionals 105
+var Schema = mongoose.Schema;
+var app = express();
+var schemaName = new Schema({
+    request: String,
+    time: Number
+}, {
+        collection: 'collectionName'
+    });
+var Model = mongoose.model('Model', schemaName);
+mongoose.connect('mongodb://localhost:27017/dbName');
+var port = process.env.PORT || 8080;
+app.listen(port, function () {
+    console.log('Node.js listening on port ' + port);
+});
+Now add Express.js routes that we will use to write the data:
+app.get('/save/:query', cors(), function (req, res) {
+    var query = req.params.query;
+    var savedata = new Model({
+        'request': query,
+        'time': Math.floor(Date.now() / 1000) // Time of save the data in unix timestamp format
+    }).save(function (err, result) {
+        if (err) throw err;
+        if (result) {
+            res.json(result)
+        }
+    })
+})
+Here the query variable will be the < query > parameter from the incoming HTTP request, which will be saved to
+MongoDB:
+var savedata = new Model({
+    'request': query,
+    //...
+    If an error occurs while trying to write to MongoDB, you will receive an error message on the console.If all is
+successful, you will see the saved data in JSON format on the page.
+//...
+}).save(function (err, result) {
+        if (err) throw err;
+        if (result) {
+            res.json(result)
+        }
+    })
+//...
+Now, you need to start MongoDB and run your server.js file using node server.js.
+    Usage
+To use this to save data, go to the following URL in your browser:
+Complete Node.js Tips & Secrets for Professionals 106
+http://localhost:8080/save/<query>
+    Where < query > is the new request you wish to save.
+        Example:
+http://localhost:8080/save/JavaScript%20is%20Awesome
+Output in JSON format:
+{
+    __v: 0,
+        request: "JavaScript is Awesome",
+            time: 1469411348,
+                _id: "57957014b93bc8640f2c78c4"
+}

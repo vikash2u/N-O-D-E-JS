@@ -1,0 +1,11 @@
+Deliver HTML or any other sort of file
+response.sendFile(fileName, options, function (err) {});
+Section 58.1: Deliver HTML at specified path
+Here's how to create an Express server and serve index.html by default (empty path /), and page1.html for /page1
+path.
+Folder structure
+project root
+| server.js
+|____views
+| index.html
+| page1.html

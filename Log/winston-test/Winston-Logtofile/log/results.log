@@ -1,0 +1,33 @@
+2018-11-13 16:14:32 info: Hello world
+2018-11-13 16:14:32 warn: Warning message
+2018-11-13 16:14:32 debug: Debugging info
+2018-11-13 16:14:42 info: Hello world
+2018-11-13 16:14:42 warn: Warning message
+2018-11-13 16:14:42 debug: Debugging info
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+{"message":"Hello world","level":"info","timestamp":"2018-11-13 16:20:14"}
+{"message":"Warning message","level":"warn","timestamp":"2018-11-13 16:20:14"}
+{"message":"Debugging info","level":"debug","timestamp":"2018-11-13 16:20:14"}
+{"message":"Hello world","level":"info","timestamp":"2018-11-13 16:21:32"}
+{"message":"Warning message","level":"warn","timestamp":"2018-11-13 16:21:32"}
+{"message":"Debugging info","level":"debug","timestamp":"2018-11-13 16:21:32"}
+2018-11-13 16:22:19 info: Hello world
+2018-11-13 16:22:19 warn: Warning message
+2018-11-13 16:22:19 debug: Debugging info
+{"message":"Hello world","level":"info","timestamp":"2018-11-13 16:22:37"}
+{"message":"Warning message","level":"warn","timestamp":"2018-11-13 16:22:37"}
+{"message":"Debugging info","level":"debug","timestamp":"2018-11-13 16:22:37"}
+2018-11-13 16:23:37 info: Hello world
+2018-11-13 16:23:37 warn: Warning message
+2018-11-13 16:23:37 debug: Debugging info
+{"message":"Hello world","level":"info","timestamp":"2018-11-13 16:23:53"}
+{"message":"Warning message","level":"warn","timestamp":"2018-11-13 16:23:53"}
+{"message":"Debugging info","level":"debug","timestamp":"2018-11-13 16:23:53"}
+{"message":"Hello world","level":"info","timestamp":"2018-11-13 16:24:46"}
+{"message":"Warning message","level":"warn","timestamp":"2018-11-13 16:24:46"}
+{"message":"Debugging info","level":"debug","timestamp":"2018-11-13 16:24:46"}

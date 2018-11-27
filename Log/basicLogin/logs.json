@@ -1,0 +1,10 @@
+{"name":"myapp","hostname":"LT062259","pid":12040,"level":30,"msg":"Incoming request { method: 'GET' }","time":"2018-11-13T08:31:32.345Z","v":0}
+{"name":"myapp","hostname":"LT062259","pid":12040,"level":30,"msg":"Incoming request query { query: {} }","time":"2018-11-13T08:31:32.349Z","v":0}
+{"name":"myapp","hostname":"LT062259","pid":12040,"level":30,"msg":"Request failed returning error { error: 'Invalid query' }","time":"2018-11-13T08:31:32.351Z","v":0}
+{"name":"myapp","hostname":"LT062259","pid":10332,"level":30,"msg":"Incoming request {}","time":"2018-11-13T08:42:45.628Z","v":0}
+{"name":"myapp","hostname":"LT062259","pid":10332,"level":30,"msg":"Incoming request query { query: {} }","time":"2018-11-13T08:42:45.645Z","v":0}
+{"name":"myapp","hostname":"LT062259","pid":10332,"level":30,"msg":"Request failed returning error { error: 'Invalid query' }","time":"2018-11-13T08:42:45.647Z","v":0}
+{"name":"myapp","hostname":"LT062259","pid":9896,"level":30,"msg":"Incoming request { method: 'GET' }","time":"2018-11-13T09:02:34.340Z","v":0}
+{"name":"myapp","hostname":"LT062259","pid":9896,"level":20,"msg":"Incoming request verbose { headers: \n   { host: 'localhost:3000',\n     connection: 'keep-alive',\n     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36',\n     'content-type': 'application/json',\n     accept: '*/*',\n     'accept-encoding': 'gzip, deflate, br',\n     'accept-language': 'en-US,en;q=0.9',\n     'if-none-match': 'W/\"19-kN8uPRXIuY+YV8Ersi9wz7CMUVU\"' },\n  query: {},\n  body: undefined }","time":"2018-11-13T09:02:34.347Z","v":0}
+{"name":"myapp","hostname":"LT062259","pid":9896,"level":30,"msg":"Incoming request query { query: {} }","time":"2018-11-13T09:02:34.349Z","v":0}
+{"name":"myapp","hostname":"LT062259","pid":9896,"level":30,"msg":"Request failed returning error { error: 'Invalid query' }","time":"2018-11-13T09:02:34.350Z","v":0}
